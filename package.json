@@ -1,0 +1,32 @@
+{
+  "name": "commits-record-mono-repo",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "api",
+    "app"
+  ],
+  "engines": {
+    "node": "14.16.0",
+    "npm": "7.14.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=app",
+    "start": "npm run start --workspace=api",
+    "start:api": "npm run build && npm start --workspace=api",
+    "dev:api": "npm run dev --workspace=api",
+    "dev:app": "npm run start --workspace=app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsirisRoman/Commits-record-mono-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsirisRoman/Commits-record-mono-repo/issues"
+  },
+  "homepage": "https://github.com/OsirisRoman/Commits-record-mono-repo#readme"
+}
