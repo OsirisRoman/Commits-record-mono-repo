@@ -1,8 +1,11 @@
-const DropDownList = ({ defaultText, options, handleChange }) => {
+const DropDownList = ({ defaultText, options, setSelectedBranch }) => {
   return (
     <label>
       Select a branch:
-      <select className="ms-3" value={defaultText} onChange={handleChange}>
+      <select
+        className="ms-3"
+        value={defaultText}
+        onChange={e => setSelectedBranch(e.target.value)}>
         <option value={defaultText} style={{ display: "none" }}>
           {defaultText}
         </option>
