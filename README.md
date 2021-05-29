@@ -51,4 +51,4 @@ Now you can navigate to http://localhost:3001/ where your server will be running
 
 You can see the live result of this repository in the following link:
 
-- FullStack-Monorepo: https://osirisroman-nodejs-react-monorepo.herokuapp.com/
+- FullStack-Monorepo: https://osirisroman-nodejs-react-app.herokuapp.com/
