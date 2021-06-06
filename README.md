@@ -8,17 +8,17 @@ See the **Installation** section to know how to install the requirements.
 
 ## Pre-requisites 📋
 
+### NPM (Make sure to fulfill this prerequisite to avoid problems with npm workspaces)
+
+| Version  |                    |
+| -------- | ------------------ |
+| >=7.14.0 | :white_check_mark: |
+
 ### Node.js
 
 | Version   |                    |
 | --------- | ------------------ |
 | >=14.16.1 | :white_check_mark: |
-
-### NPM
-
-| Version  |                    |
-| -------- | ------------------ |
-| >=7.14.0 | :white_check_mark: |
 
 ## Installation 🔧
 
